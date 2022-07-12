@@ -1,4 +1,4 @@
-migr <- read.csv('timeseries/migration.csv')
+migr <- read.csv('migration.csv')
 
 plot_results <- function(preds, x, y) {
   plot(x=x, y=y, type='l', lty=2)
